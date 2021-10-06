@@ -1,0 +1,94 @@
+body, html {margin: 0; padding: 0;}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f1ebeb;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #ddb6b3;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+    padding: 20px;
+}
+
+.board {
+    margin-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.node {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    color: blanchedalmond;
+    font-size: 52px;
+    border: 3px solid blanchedalmond;
+}
+
+.text {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f2d6c7;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+
+.play {
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.active {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f2d6c7;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: rgb(75, 70, 74);
+    color: #fff;
+    padding: 20px;
+}
+
+img {
+    margin-left: 10px;
+    margin-bottom: -4px; /* push icon down too look better */
+    width: 20px;
+    height: auto;
+}
